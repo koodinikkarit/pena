@@ -244,21 +244,21 @@ by exp-lbrs.ulp</description>
 <description>&lt;b&gt;Solder Pads/Test Points&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SE14">
+<package name="SE11">
 <description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt;
-drill 1.4 mm</description>
-<wire x1="-1.524" y1="0.635" x2="-1.524" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.524" x2="1.524" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.524" x2="1.524" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="0.635" x2="1.524" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="0.635" x2="-0.635" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.524" x2="0.635" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.524" x2="-1.524" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.524" x2="-0.635" y2="-1.524" width="0.1524" layer="21"/>
+drill 1.1 mm</description>
+<wire x1="-1.397" y1="0.508" x2="-1.397" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-1.397" x2="1.397" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="1.397" x2="1.397" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="0.508" x2="1.397" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="0.508" x2="-0.508" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="1.397" x2="0.508" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-1.397" x2="-1.397" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-1.397" x2="-0.508" y2="-1.397" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="0.381" width="0.254" layer="51"/>
-<pad name="MP" x="0" y="0" drill="1.397" diameter="2.54" shape="octagon"/>
-<text x="-1.397" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<pad name="MP" x="0" y="0" drill="1.1176" diameter="1.9304" shape="octagon"/>
+<text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.381" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
@@ -272,13 +272,13 @@ drill 1.4 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SE14" prefix="LSP">
-<description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt; E1553,  drill 1,4mm, distributor Buerklin, 07F820</description>
+<deviceset name="SE11" prefix="LSP">
+<description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt; RTM, drill 1,1mm, distributor Buerklin, 07F810</description>
 <gates>
 <gate name="1" symbol="LSP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SE14">
+<device name="" package="SE11">
 <connects>
 <connect gate="1" pin="MP" pad="MP"/>
 </connects>
@@ -1186,12 +1186,12 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="JP1" library="mega" deviceset="PINHD-1X1" device=""/>
 <part name="JP2" library="mega" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-2X8" device=""/>
-<part name="VCC" library="solpad" deviceset="SE14" device=""/>
-<part name="CS" library="solpad" deviceset="SE14" device=""/>
-<part name="GND" library="solpad" deviceset="SE14" device=""/>
-<part name="SCK" library="solpad" deviceset="SE14" device=""/>
-<part name="SO" library="solpad" deviceset="SE14" device=""/>
-<part name="SI" library="solpad" deviceset="SE14" device=""/>
+<part name="VCC" library="solpad" deviceset="SE11" device=""/>
+<part name="CS" library="solpad" deviceset="SE11" device=""/>
+<part name="GND" library="solpad" deviceset="SE11" device=""/>
+<part name="SCK" library="solpad" deviceset="SE11" device=""/>
+<part name="SO" library="solpad" deviceset="SE11" device=""/>
+<part name="SI" library="solpad" deviceset="SE11" device=""/>
 </parts>
 <sheets>
 <sheet>

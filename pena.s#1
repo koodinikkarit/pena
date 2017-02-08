@@ -257,7 +257,7 @@ drill 1.1 mm</description>
 <wire x1="0.508" y1="-1.397" x2="-0.508" y2="-1.397" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="0.381" width="0.254" layer="51"/>
-<pad name="MP" x="0" y="0" drill="1.1176" diameter="1.9304" shape="octagon"/>
+<pad name="MP" x="0" y="0" drill="1.1176" diameter="1.6764" shape="octagon"/>
 <text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.381" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
@@ -1155,7 +1155,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </variantdefs>
 <classes>
 <class number="0" name="default" width="1" drill="0.635">
-<clearance class="0" value="1"/>
+<clearance class="0" value="0.25"/>
 </class>
 <class number="1" name="power" width="0.6096" drill="0.7112">
 <clearance class="1" value="0.2032"/>
@@ -1192,6 +1192,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="SCK" library="solpad" deviceset="SE11" device=""/>
 <part name="SO" library="solpad" deviceset="SE11" device=""/>
 <part name="SI" library="solpad" deviceset="SE11" device=""/>
+<part name="LSP1" library="solpad" deviceset="SE11" device=""/>
+<part name="LSP2" library="solpad" deviceset="SE11" device=""/>
+<part name="LSP3" library="solpad" deviceset="SE11" device=""/>
+<part name="LSP4" library="solpad" deviceset="SE11" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1222,6 +1226,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="SCK" gate="1" x="50.8" y="99.06"/>
 <instance part="SO" gate="1" x="43.18" y="81.28"/>
 <instance part="SI" gate="1" x="66.04" y="88.9"/>
+<instance part="LSP1" gate="1" x="78.74" y="106.68"/>
+<instance part="LSP2" gate="1" x="78.74" y="91.44"/>
+<instance part="LSP3" gate="1" x="88.9" y="91.44"/>
+<instance part="LSP4" gate="1" x="88.9" y="106.68"/>
 </instances>
 <busses>
 </busses>
