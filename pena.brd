@@ -238,22 +238,22 @@ by exp-lbrs.ulp</description>
 <rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
 <rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
 <rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-1.016" layer="51"/>
-<pad name="1" x="-8.89" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="2" x="-8.89" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="3" x="-6.35" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="4" x="-6.35" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="5" x="-3.81" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="6" x="-3.81" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="7" x="-1.27" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="8" x="-1.27" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="9" x="1.27" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="10" x="1.27" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="11" x="3.81" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="12" x="3.81" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="13" x="6.35" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="14" x="6.35" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="15" x="8.89" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="16" x="8.89" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
+<pad name="1" x="-8.89" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="-8.89" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="3" x="-6.35" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="4" x="-6.35" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="5" x="-3.81" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="6" x="-3.81" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="7" x="-1.27" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="8" x="-1.27" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="9" x="1.27" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="10" x="1.27" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="11" x="3.81" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="12" x="3.81" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="13" x="6.35" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="14" x="6.35" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="15" x="8.89" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="16" x="8.89" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
 <text x="-10.16" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -276,7 +276,7 @@ drill 1.1 mm</description>
 <wire x1="0.508" y1="-1.397" x2="-0.508" y2="-1.397" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="0.381" width="0.254" layer="51"/>
-<pad name="MP" x="0" y="0" drill="1.1176" diameter="2.1844" shape="octagon"/>
+<pad name="MP" x="0" y="0" drill="1.1176" diameter="1.9304" shape="octagon"/>
 <text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.381" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
@@ -582,15 +582,15 @@ design rules under a new name.</description>
 <element name="JP2" library="mega" package="1X01" value="" x="89.02" y="33.68" rot="R90"/>
 <element name="JP3" library="mega" package="2X08" value="" x="90.29" y="45.11" rot="R90"/>
 <element name="VCC" library="solpad" package="SE11" value="SE11" x="96.91" y="33.41"/>
-<element name="CS" library="solpad" package="SE11" value="SE11" x="96.91" y="35.77"/>
+<element name="CS" library="solpad" package="SE11" value="SE11" x="96.91" y="35.87"/>
 <element name="GND" library="solpad" package="SE11" value="SE11" x="99.17" y="33.41"/>
-<element name="SCK" library="solpad" package="SE11" value="SE11" x="99.17" y="38.23"/>
-<element name="SO" library="solpad" package="SE11" value="SE11" x="99.17" y="40.59"/>
-<element name="SI" library="solpad" package="SE11" value="SE11" x="96.9" y="38.2"/>
-<element name="LSP1" library="solpad" package="SE11" value="SE11" x="96.9" y="40.6"/>
-<element name="LSP2" library="solpad" package="SE11" value="SE11" x="99.2" y="43"/>
-<element name="LSP3" library="solpad" package="SE11" value="SE11" x="96.9" y="43"/>
-<element name="LSP4" library="solpad" package="SE11" value="SE11" x="99.2" y="35.8"/>
+<element name="SCK" library="solpad" package="SE11" value="SE11" x="99.17" y="38.43"/>
+<element name="SO" library="solpad" package="SE11" value="SE11" x="99.17" y="40.89"/>
+<element name="SI" library="solpad" package="SE11" value="SE11" x="96.9" y="38.4"/>
+<element name="LSP1" library="solpad" package="SE11" value="SE11" x="96.9" y="40.9"/>
+<element name="LSP2" library="solpad" package="SE11" value="SE11" x="99.2" y="43.4"/>
+<element name="LSP3" library="solpad" package="SE11" value="SE11" x="96.9" y="43.4"/>
+<element name="LSP4" library="solpad" package="SE11" value="SE11" x="99.2" y="35.9"/>
 </elements>
 <signals>
 <signal name="+5V">
@@ -696,12 +696,12 @@ design rules under a new name.</description>
 <signal name="53">
 <contactref element="JP3" pad="1"/>
 <contactref element="CS" pad="MP"/>
-<wire x1="91.56" y1="36.22" x2="96.91" y2="35.77" width="0" layer="19" extent="1-1"/>
+<wire x1="91.56" y1="36.22" x2="96.91" y2="35.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="51">
 <contactref element="JP3" pad="3"/>
 <contactref element="SI" pad="MP"/>
-<wire x1="91.56" y1="38.76" x2="96.9" y2="38.2" width="0" layer="19" extent="1-1"/>
+<wire x1="91.56" y1="38.76" x2="96.9" y2="38.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="49">
 <contactref element="JP3" pad="5"/>
@@ -724,12 +724,12 @@ design rules under a new name.</description>
 <signal name="52">
 <contactref element="JP3" pad="2"/>
 <contactref element="SCK" pad="MP"/>
-<wire x1="89.02" y1="36.22" x2="99.17" y2="38.23" width="0" layer="19" extent="1-1"/>
+<wire x1="89.02" y1="36.22" x2="99.17" y2="38.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="50">
 <contactref element="JP3" pad="4"/>
 <contactref element="SO" pad="MP"/>
-<wire x1="89.02" y1="38.76" x2="99.17" y2="40.59" width="0" layer="19" extent="1-1"/>
+<wire x1="89.02" y1="38.76" x2="99.17" y2="40.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="48">
 <contactref element="JP3" pad="6"/>

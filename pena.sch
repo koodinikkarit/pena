@@ -284,22 +284,22 @@ by exp-lbrs.ulp</description>
 <rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
 <rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
 <rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-1.016" layer="51"/>
-<pad name="1" x="-8.89" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="2" x="-8.89" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="3" x="-6.35" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="4" x="-6.35" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="5" x="-3.81" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="6" x="-3.81" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="7" x="-1.27" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="8" x="-1.27" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="9" x="1.27" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="10" x="1.27" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="11" x="3.81" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="12" x="3.81" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="13" x="6.35" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="14" x="6.35" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="15" x="8.89" y="-1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
-<pad name="16" x="8.89" y="1.27" drill="1.016" diameter="2.1844" shape="octagon"/>
+<pad name="1" x="-8.89" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="-8.89" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="3" x="-6.35" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="4" x="-6.35" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="5" x="-3.81" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="6" x="-3.81" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="7" x="-1.27" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="8" x="-1.27" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="9" x="1.27" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="10" x="1.27" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="11" x="3.81" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="12" x="3.81" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="13" x="6.35" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="14" x="6.35" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="15" x="8.89" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="16" x="8.89" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
 <text x="-10.16" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -406,7 +406,7 @@ drill 1.1 mm</description>
 <wire x1="0.508" y1="-1.397" x2="-0.508" y2="-1.397" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="0.381" width="0.254" layer="51"/>
-<pad name="MP" x="0" y="0" drill="1.1176" diameter="2.1844" shape="octagon"/>
+<pad name="MP" x="0" y="0" drill="1.1176" diameter="1.9304" shape="octagon"/>
 <text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.381" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
